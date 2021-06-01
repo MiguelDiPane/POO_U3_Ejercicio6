@@ -1,6 +1,6 @@
 import abc
 from abc import ABC
-class Vehiculo:
+class Vehiculo(ABC):
     __modelo = ''
     __cantPuertas = 0
     __color = ''
